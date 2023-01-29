@@ -1,0 +1,35 @@
+﻿<h1 style="padding-left: 37%;"><strong>Liste des Navires du Port de Montréal</strong> </h1>
+<div style="padding: auto;">
+
+    <div >
+        <table class="GeneratedTable">
+            <thead>
+                <tr>
+                    <th *ngFor="let column of columnDefs">{{column.headerName}}</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let vessel of vessels; index as vesselId">
+                    <td><strong>{{vessel.vesselNumber}}</strong></td>
+                    <td><a [title]="vessel.name" [routerLink]="['/vessel', vessel.vesselNumber]">{{vessel.name}}</a></td>
+                    <td>{{vessel.yearOfConstruction}}</td>
+                    <td>{{vessel.length}}</td>
+                    <td>{{vessel.width}}</td>
+                    <td>{{vessel.grossWeight}}</td>
+                    <td>{{vessel.netWeight}}</td>
+                    <td>{{vessel.info}}</td>
+                </tr>
+               
+            </tbody>
+        </table>
+        <br>
+        <button mat-raised-button routerLink="/create" routerLinkActive="active">
+            Ajouter navire
+        </button>
+        
+        
+    </div>
+
+    
+</div>
