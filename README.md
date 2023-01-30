@@ -1,9 +1,25 @@
 # GestionNavireFrontEnd
 Projet de gestion de Navires portuaires
 
+Prerequisite
 
-Install Node.js and npm from https://nodejs.org.
-Download or clone the Angular project source code from https://github.com/cornflourblue/angular-14-registration-login-example
-Install all required npm packages by running npm install or npm i from the command line in the project root folder (where the package.json is located).
-Start the app by running npm start from the command line in the project root folder, this will compile the Angular app and automatically launch it in the browser on the URL http://localhost:4200.
-NOTE: You can also start the app with the Angular CLI command ng serve --open. To do this first install the Angular CLI globally on your system with the command npm install -g @angular/cli
+
+
+Install Node.js and npm from https://nodejs.org
+
+
+Getting Started
+
+1.Téléchargez ou clonez le code source du projet Angular dans votre référentiel local
+
+
+
+2.Installez tous les packages npm requis en exécutant npm install ou npm i à partir de la ligne de commande dans le dossier racine du projet (où se trouve le package.json).
+
+
+
+
+3.Démarrez l'application en exécutant npm start à partir de la ligne de commande dans le dossier racine du projet, cela compilera l'application Angular et la lancera automatiquement dans le navigateur sur l'URL http://localhost:4200.
+
+
+NOTE: Vous pouvez également démarrer l'application avec la commande CLI angulaire ng serve --open. Pour ce faire, installez d'abord la CLI angulaire globalement sur votre système avec la commande npm install -g @angular/cli
