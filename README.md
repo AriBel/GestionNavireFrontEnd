@@ -23,3 +23,7 @@ Exécuter le projet
 
 
 NOTE: Vous pouvez également démarrer l'application avec la commande CLI angulaire ng serve --open. Pour ce faire, installez d'abord la CLI angulaire globalement sur votre système avec la commande npm install -g @angular/cli
+
+
+
+Important!: S'assurer que la partie API (GestionNAvireDotNetAPI) roule sur le port 4000 avant de commencer a utilise l'application !
