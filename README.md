@@ -1,14 +1,14 @@
 # GestionNavireFrontEnd
 Projet de gestion de Navires portuaires
 
-Prerequisite
+Prérequis
 
 
 
 Install Node.js and npm from https://nodejs.org
 
 
-Getting Started
+Exécuter le projet
 
 1.Téléchargez ou clonez le code source du projet Angular dans votre référentiel local
 
